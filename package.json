@@ -1,0 +1,38 @@
+{
+  "name": "ontobeTD2KG",
+  "version": "1.0.0",
+  "description": "ONTOBE Tabular Data Annotation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "FOKO Brice",
+  "license": "ISC",
+  "dependencies": {
+    "@entitree/helper": "^0.7.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "csv-parser": "^3.0.0",
+    "csv-reader": "^1.0.9",
+    "express": "^4.18.1",
+    "fix-utf8": "^1.1.1",
+    "googlethis": "^1.3.0",
+    "isomorphic-fetch": "^3.0.0",
+    "json2csv": "^5.0.7",
+    "natural": "^5.2.3",
+    "node-fetch": "2.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "str-compare": "^0.1.2",
+    "string-comparison": "^1.1.0",
+    "string-cosine-similarity": "^2.0.1",
+    "string-similarity": "^4.0.4",
+    "sync": "^0.2.5",
+    "sync-fetch": "^0.4.1",
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "keywords": []
+}
